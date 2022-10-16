@@ -1,49 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Countdown</title>
     <link rel="icon" type="image/png" href="img/favicon.png" />
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+</head>
 
-      <!-- Video Background -->
+<body>
+
+    <!-- Video Background -->
     <video class="video-background" id="video-background" loop muted autoplay>
-        <source src="assets/video/Sunset.mp4"></source>
-     </video>
+        <source src="assets/video/Sunset.mp4">
+        </source>
+    </video>
 
     </video>
     <nav class="navbar fixed-top">
-            <div class="navbar-item">Countdown Timer</div>
-            <!-- <div class="add-button" id="add-button">Add Countdown</div> -->
-            <div class="add-button navbar-item" id="show-modal">Suggested Countdown</div>
-            <a class="navbar-item" href="https://github.com/VitRod" ><div>My Github</div></a>
-      </nav>
+        <div class="navbar-item">Countdown Timer</div>
+        <!-- <div class="add-button" id="add-button">Add Countdown</div> -->
+        <div class="add-button navbar-item" id="show-modal">Suggested Countdown</div>
+        <a class="navbar-item" href="https://github.com/VitRod">
+            <div>My Github</div>
+        </a>
+    </nav>
     <div class="video-overlay"></div>
     <div class="add-container">
-         </div>
+    </div>
 
-         <!-- Countdown -->
-        <div class="countdown" id="countdown" hidden >
-            <h1 id="countdown-title"></h1>
-            <ul>
-                <li><span></span>Days</li>
-                <li><span></span>Hours</li>
-                <li><span></span>Minutes</li>
-                <li><span></span>Seconds</li>
-            </ul>
-            <button id="countdown-button">RESET</button>
-        </div>
+    <!-- Countdown -->
+    <div class="countdown" id="countdown" hidden>
+        <h1 id="countdown-title"></h1>
+        <ul>
+            <li><span></span>Days</li>
+            <li><span></span>Hours</li>
+            <li><span></span>Minutes</li>
+            <li><span></span>Seconds</li>
+        </ul>
+        <button id="countdown-button">RESET</button>
+    </div>
 
-        <!-- Complete -->
-        <div class="complete" id="complete" hidden>
-            <h1 class="complete-title">Countdown Complete!</h1>
-            <h1 id="complete-info"></h1>
-            <button id="complete-button">NEW COUNTDOWN</button>
-        </div>
+    <!-- Complete -->
+    <div class="complete" id="complete" hidden>
+        <h1 class="complete-title">Countdown Complete!</h1>
+        <h1 id="complete-info"></h1>
+        <button id="complete-button">NEW COUNTDOWN</button>
+    </div>
     </div>
 
     <!-- </div> -->
@@ -75,5 +80,6 @@
 
     <!-- Script -->
     <script src="script.js"></script>
-  </body>
+</body>
+
 </html>
