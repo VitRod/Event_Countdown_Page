@@ -188,6 +188,11 @@ body {
     cursor: pointer;
   }
 
+  /* Form */
+.form {
+    width: 480px;
+  }
+
 
 
 
