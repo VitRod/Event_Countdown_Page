@@ -163,7 +163,12 @@ body {
     padding: 5px;
   }
 
-
+  h3 {
+    margin: 5px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
 
 
 
