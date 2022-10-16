@@ -94,7 +94,15 @@ body {
     top: 20px;
   }
 
-
+  .add-button {
+    color: white;
+  }
+  .add-button:hover {
+    color: black;
+    cursor: pointer;
+    transition: ease-in 0.3s;
+    transform: scale(1.05);
+  }
 
 
 
