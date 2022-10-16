@@ -62,6 +62,18 @@ body {
     transform: scale(1.05);
   }
   
+/* Container */
+#container {
+    min-width: 580px;
+    min-height: 304px;
+    color: black;
+    margin: 0 auto;
+    padding: 25px 50px;
+    border-radius: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+  }
 
 
 
@@ -96,4 +108,3 @@ body {
 
 
 
-  
