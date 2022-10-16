@@ -226,7 +226,11 @@ button {
     padding: 10px;
   }
 
-
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s;
+  }
 
 
 
