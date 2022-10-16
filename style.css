@@ -174,7 +174,19 @@ body {
     background: whitesmoke;
   }
 
-
+  .suggested-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0;
+  }
+  .suggested-list-li {
+    font-size: 20px;
+  }
+  .suggested-list-li:hover {
+    color: blue;
+    cursor: pointer;
+  }
 
 
 
