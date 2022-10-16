@@ -232,7 +232,11 @@ button {
     transition: all 0.2s;
   }
 
-
+  button::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+    transition: all 0.2s;
+  }
 
 
 
