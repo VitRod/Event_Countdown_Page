@@ -211,10 +211,28 @@ body {
     letter-spacing: 1px;
   }
 
+/* Button */
+button {
+    width: 100%;
+    height: 40px;
+    border-radius: 7px;
+    margin: 15px 0px;
+    border: none;
+    text-transform: uppercase;
+    background: rgb(82, 115, 167);
+    color: white;
+    cursor: pointer;
+    outline: none;
+    padding: 10px;
+  }
 
 
 
-  
+
+
+
+
+
 
 
 
