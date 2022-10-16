@@ -75,7 +75,20 @@ body {
     justify-content: center;
   }
 
-
+  .single-container {
+    min-width: 580px;
+    min-height: 304px;
+    min-width: 400px;
+    min-height: 245px;
+    color: black;
+    margin: 0 auto;
+    padding: 25px 50px;
+    border-radius: 10px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
 
 
 
