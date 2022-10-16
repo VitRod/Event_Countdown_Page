@@ -137,7 +137,31 @@ body {
     animation: modalopen 1s;
   }
 
-
+  @keyframes modalopen {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .close-icon {
+    float: right;
+    color: white;
+    font-size: 24px;
+    position: relative;
+    top: 13px;
+    right: 13px;
+    cursor: pointer;
+  }
+  
+  .modal-header {
+    background-color: rgb(82, 115, 167);
+    color: white;
+    padding: 5px;
+  }
 
 
 
