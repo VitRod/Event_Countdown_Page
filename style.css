@@ -265,7 +265,14 @@ li span {
   text-align: center;
 }
 
-
+/* Complete */
+.complete {
+  position: relative;
+  top: 60px;
+}
+.complete-title {
+  animation: completedAnnoucement 0.7s infinite;
+}
   
 
 
