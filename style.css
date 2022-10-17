@@ -351,6 +351,20 @@ li span {
   }
 }
 
+@media screen and (max-width: 350px) {
+  .navbar {
+    padding: 10px 20px;
+    font-size: 21px;
+    align-items: center;
+  }
+  li {
+    font-size: 14px;
+    padding: 7px;
+  }
+  li span {
+    font-size: 40px;
+  }
+}
 
 
 
