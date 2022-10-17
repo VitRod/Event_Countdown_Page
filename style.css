@@ -246,9 +246,16 @@ button {
     transition: all 0.2s;
   }
 
+/* Countdown */
+ul {
+  margin-left: -45px;
+}
+
+
+
+
 
   
-
 
 
 
