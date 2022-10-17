@@ -293,8 +293,63 @@ li span {
     /* color: rgb(255, 0, 106); */
   }
 }
-/* Media Query: Large S
 
+/* Media Query: Large Smartphone (Vertical) */
+@media screen and (max-width: 750px) {
+  video {
+    object-fit: cover;
+    object-position: 25%;
+    margin-top: -1px;
+  }
+
+  .video-background {
+    height: 100vh;
+    width: 100vw;
+  }
+  .navbar {
+    padding: 10px 20px;
+    font-size: 21px;
+    align-items: center;
+  }
+
+  .single-container {
+    min-width: unset;
+    width: 95vw;
+    min-height: 245px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .input-container {
+    top: unset;
+  }
+
+  .countdown {
+    position: relative;
+    top: 10px;
+  }
+
+  .form {
+    width: unset;
+  }
+
+  input {
+    width: 93%;
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  li {
+    font-size: 18px;
+    padding: 8px;
+  }
+
+  li span {
+    font-size: 40px;
+  }
+}
 
 
 
