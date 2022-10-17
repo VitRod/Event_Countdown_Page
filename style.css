@@ -274,7 +274,26 @@ li span {
   animation: completedAnnoucement 0.7s infinite;
 }
   
-
+@keyframes completedAnnoucement {
+  0% {
+    /* color: rgb(255, 0, 106); */
+  }
+  25% {
+    color: rgb(163, 10, 74);
+  }
+  50% {
+    color: rgb(255, 0, 106);
+    transform: translateY(15px);
+    /* font-size: 16px; */
+  }
+  75% {
+    /* color: rgb(195, 207, 18); */
+  }
+  100% {
+    /* color: rgb(255, 0, 106); */
+  }
+}
+/* Media Query: Large S
 
 
 
