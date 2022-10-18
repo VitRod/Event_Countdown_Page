@@ -19,7 +19,16 @@ const modalClose = document.getElementById('close-modal');
 
 const suggestedListNodeList = document.getElementsByClassName('suggested-list-li');
 
-
+for (let i = 0; i < suggestedListNodeList.length; i++) {
+    suggestedListNodeList[i].addEventListener('click', (e) => {
+      modal.classList.remove('show-modal');
+      let value = e.target.innerHTML;
+      localStorage.removeItem('countdown');
+      countdownTitle = '';
+      countdownDate = '';
+      updateCountdown(value, suggestedList[value]);
+    });
+  }
 
 
 
