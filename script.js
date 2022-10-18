@@ -65,7 +65,12 @@ const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
 
-
+// Set Date Input Min & Value with Today's Date
+const timeHere = new Date();
+const timeHereISO = new Date().toISOString().split('2020');
+const today = new Date().toISOString().split('T')[0];
+console.log('today is', today);
+dateEl.setAttribute('min', today);
 
 
 
