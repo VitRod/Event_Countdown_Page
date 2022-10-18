@@ -30,6 +30,18 @@ for (let i = 0; i < suggestedListNodeList.length; i++) {
     });
   }
 
+  const suggestedList = {
+    'Presidential Election': 1604361600000,
+    Christmas: 1608854400000,
+    Hanukkah: 1607558400000,
+    Thanksgiving: 1606348800000,
+    'Yom Kippur': 1601164800000,
+    "Valentine's Day": 1613260800000,
+    Halloween: 1604102400000,
+    'Friday the 13th': 1605225600000,
+    'Black Friday': 1606435200000,
+    "New Year's Eve": 1609372800000,
+  };
 
 
 
