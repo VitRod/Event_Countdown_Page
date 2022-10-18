@@ -13,7 +13,9 @@ const completeBtn = document.getElementById('complete-button');
 // const addBtn = document.getElementById('add-button');
 const container = document.getElementById('container');
 
-
+const modal = document.getElementById('modal');
+const modalShow = document.getElementById('show-modal');
+const modalClose = document.getElementById('close-modal');
 
 
 
