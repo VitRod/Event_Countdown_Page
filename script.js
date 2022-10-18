@@ -104,6 +104,32 @@ const updateDOM = () => {
 
 
 
+const updateCountdown = (e = undefined, suggestedTitle, suggestedValue) => {
+  if (typeof e === 'object') {
+    e.preventDefault();
+    countdownTitle = e.srcElement[0].value;
+    countdownDate = e.srcElement[1].value;
+  } else {
+    // Set title and date, save to localStorage
+    countdownTitle = e;
+    countdownDate = suggestedTitle;
+  }
+  savedCountdown = {
+    title: countdownTitle,
+    date: countdownDate,
+  };
+
+  localStorage.setItem('countdown', JSON.stringify(savedCountdown));
+  // Check if no date entered
+  if (countdownDate === '') {
+    alert('Please select a date for the countdown.');
+  } else {
+    // Get number version of current Date, updateDOM
+    countdownValue = new Date(countdownDate).getTime();
+    updateDOM();
+  }
+};
+
 
 
 
