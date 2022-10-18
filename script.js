@@ -43,7 +43,10 @@ for (let i = 0; i < suggestedListNodeList.length; i++) {
     "New Year's Eve": 1609372800000,
   };
 
-
+// Show Modal, Focus on Input
+function showModal() {
+    modal.classList.add('show-modal');
+  }
 
 
 
