@@ -103,7 +103,6 @@ const updateDOM = () => {
 };
 
 
-
 const updateCountdown = (e = undefined, suggestedTitle, suggestedValue) => {
   if (typeof e === 'object') {
     e.preventDefault();
