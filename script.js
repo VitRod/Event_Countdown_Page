@@ -201,6 +201,8 @@ countdownBtn.addEventListener('click', reset);
 completeBtn.addEventListener('click', reset);
 // addBtn.addEventListener('click', addCountdown);
 
+// On Load, check localStorage
+restorePreviousCountdown();
 
 
 
