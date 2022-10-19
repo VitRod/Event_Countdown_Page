@@ -175,7 +175,25 @@ const displayCountdown = (countdownTitle, countdownDate, countdownValue) => {
   );
 };
 
-
+const addCountdown = () => {
+  const countdownFormElement = document.createElement('div');
+  countdownFormElement.classList.add('single-container');
+  countdownFormElement.classList.add('input-containerr');
+  container.appendChild(countdownFormElement);
+  countdownFormElement.insertAdjacentHTML(
+    'beforeend',
+    `  <div class="input-container" id="input-container">
+        <h1>Create a Custom Countdown!</h1>       
+        <form class="form" id="countdownForm" >
+          <label for="title">Title</label>
+          <input type="text" id="title" placeholder="What are you counting down to?">
+          <label for="date-picker">Select a Date</label>
+          <input type="date" id="date-picker">
+          <button type="submit">Submit</button>
+        </form>
+      </div>`
+  );
+};
 
 
 
