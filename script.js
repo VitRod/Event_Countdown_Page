@@ -129,7 +129,20 @@ const updateCountdown = (e = undefined, suggestedTitle, suggestedValue) => {
   }
 };
 
-
+const reset = () => {
+  console.log(savedCountdown, countdownValue, countdownTitle, countdown);
+  countdownEl.hidden = true;
+  completeEl.hidden = true;
+  inputContainer.hidden = false;
+  clearInterval(countdownActive);
+  countdownTitle = '';
+  countdownDate = '';
+  countdownValue = '';
+  savedCountdown = '';
+  countdown = '';
+  console.log(savedCountdown, countdownValue, countdownTitle, countdown);
+  localStorage.removeItem('countdown');
+};
 
 
 
