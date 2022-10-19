@@ -144,7 +144,18 @@ const reset = () => {
   localStorage.removeItem('countdown');
 };
 
-
+const restorePreviousCountdown = () => {
+  // Get countdown from localStorage if available
+  if (localStorage.getItem('countdown')) {
+    countdown = JSON.parse(localStorage.getItem('countdown'));
+    inputContainer.hidden = true;
+    const { title, date } = countdown;
+    countdownTitle = title;
+    countdownDate = date;
+    countdownValue = new Date(countdownDate).getTime();
+    updateDOM();
+  }
+};
 
 
 
