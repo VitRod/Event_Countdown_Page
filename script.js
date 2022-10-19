@@ -195,7 +195,11 @@ const addCountdown = () => {
   );
 };
 
-
+// Event Listeners
+countdownForm.addEventListener('submit', updateCountdown);
+countdownBtn.addEventListener('click', reset);
+completeBtn.addEventListener('click', reset);
+// addBtn.addEventListener('click', addCountdown);
 
 
 
