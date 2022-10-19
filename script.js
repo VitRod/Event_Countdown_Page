@@ -157,7 +157,23 @@ const restorePreviousCountdown = () => {
   }
 };
 
-
+const displayCountdown = (countdownTitle, countdownDate, countdownValue) => {
+  const countdownElement = document.createElement('div');
+  countdownElement.classList.add('countdown');
+  countdownFormElement.insertAdjacentHTML(
+    'beforeend',
+    `<div class="countdown" id="countdown" hidden >
+    <h1 id="countdown-title">${countdownTitle}</h1>
+    <ul>
+        <li><span></span>Days</li>
+        <li><span></span>Hours</li>
+        <li><span></span>Minutes</li>
+        <li><span></span>Seconds</li>
+    </ul>
+    <button id="countdown-button">RESET</button>
+</div>`
+  );
+};
 
 
 
