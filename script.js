@@ -217,6 +217,3 @@ restorePreviousCountdown();
 
 
 
-
-
-
